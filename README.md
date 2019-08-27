@@ -1,2 +1,2 @@
-# Frintern
-Landing page and website for Tippa.ng. Built using this Bolaji Olayinka
+# Tippa.ng
+Landing page and website for Tippa.ng. Built By Bolaji Olayinka
