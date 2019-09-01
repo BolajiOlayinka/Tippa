@@ -184,11 +184,13 @@ p:last-child {
 
 ul {
   margin: 0;
-  padding: 0
+  padding: 0;
+  
 }
 
 ul li {
-  list-style: none
+  list-style: none;
+
 }
 
 b,
@@ -974,15 +976,17 @@ only screen and (max-width:767.98px) {
 }
 
 .footer-area {
-  background-color: #f8f9fc
+  background-color:  #080b1a;
+  color:white;
 }
 
 .widget-item {
-  margin-top: 38px
+  margin-top: 38px;
+  color:white;
 }
 
 .widget-item .widget-title {
-  color: #080b1a;
+  color: white;
   font-size: 22px;
   font-weight: 600;
   line-height: 1;
@@ -1003,11 +1007,12 @@ only screen and (max-width:767.98px) {
 }
 
 .widget-list li {
-  line-height: 2
+  line-height: 2;
+  
 }
 
 .widget-list li a {
-  color: #151515;
+  color: white;
   font-weight: 500;
   -webkit-transition: .2s;
   -o-transition: .2s;

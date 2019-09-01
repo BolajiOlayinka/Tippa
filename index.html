@@ -1,10 +1,11 @@
+    
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
 	<meta class="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<title>Get Delivery of Your Bilding Materials | Tippa.ng</title>
+	<title>Get Delivery of Your Building Materials | Tippa.ng</title>
 	<!-- Don't forget to add your metadata here -->
 	<meta name="google-site-verification" content="L7tjs-aw5i9ge7N7u59MTJXhqEPLeL-sAdy8XQ2tN2w" />
 	<!-- Global site tag (gtag.js) - Google Analytics -->
@@ -51,6 +52,7 @@
 	<link href="css/materialdesignicons.min.css" rel="stylesheet"/>
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/brands.css">
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
+	<link href="css/slicknav.min.css" rel="stylesheet"/>
 	<meta name="msapplication-TileColor" content="#2b5797">
 	<meta name="theme-color" content="#ffffff">
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
@@ -76,14 +78,15 @@
 		}
 	</script> -->
 	<style>
-	.fa{
+	/* .fa{
 		color:white;
 	}
 	.sign{
 		vertical-align: middle;
 		margin-left:10px;
-	}
-	
+	} */
+	@media only screen and (max-width:767.98px){.header-action {margin-top:30px}}
+	@media only screen and (min-width:768px) and (max-width:991.98px){.header-action {margin-top:60px} .header-action button{font-size:30px} }
 	</style>
 		
 </head>
@@ -109,54 +112,50 @@
 		</div>
 	</div> -->
 	<header class="header-area">
-			<div class="container">
-				<div class="row align-items-center">
-					<div class="col-5 col-lg-2">
-						<!-- Start Logo Area -->
-						<div class="logo-area">
-							<a href="index.html"><img src="./images/Tippa Letter White2.png" alt="Tippa-Logo"></a>
-						</div>
-						<!-- End Logo Area -->
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-5 col-lg-2">
+					<!-- Start Logo Area -->
+					<div class="logo-area">
+						<a href="index.html"><img src="./images/Tippa Letter White2.png" alt="Tippa-Logo"></a>
 					</div>
-		
-					<div class="col-lg-7 d-none d-lg-block">
-						<!-- Start Navigation Area -->
-						<div class="navigation-area mt-lg-3">
-							<ul class="main-menu nav">
-								<li><a href="index.html">Home</a> </li>
-								<li><a href="Gallery.html">OUR Services</a></li>
-								<li><a href="about.html">About Us</a> </li>
-								
-								<!-- <li><a href="contact.html">Contact</a></li> -->
-								<!-- <li><a href="auth.html">Login</a></li>
-								<li><a href="Sign Up.html">Sign Up</a></li> -->
-								
-								<li class="has-submenu"><a href="index.html"> Place Order</a>
-									<ul class="submenu-nav" id="options">
-										<li><a href="#"> Order Granite</a></li>
-                                        <li><a href="#"> Order Gravel</a></li>
-                                        <li><a href="#"> Order Sand</a></li>
-                                        <li><a href="#"> Others</a></li>
-									</ul>
-								</li>
-							</ul>
-						</div>
-						<!-- End Navigation Area -->
+					<!-- End Logo Area -->
+				</div>
+	
+				<div class="col-lg-7 d-none d-lg-block">
+					<!-- Start Navigation Area -->
+					<div class="navigation-area mt-lg-3">
+						<ul class="main-menu nav">
+							<li><a href="index.html">Home</a> </li>
+							<!-- <li><a href="Gallery.html">OUR Services</a></li> -->
+							<li><a href="about.html">About Us</a> </li>
+							<li><a href=".html">Contact Us</a> </li>
+							<li class="has-submenu"><a href="#"> Place Order</a>
+								<ul class="submenu-nav" id="options">
+									<li><a href="Order.html"> Order Granite</a></li>   
+									<li><a href="OrderSand.html"> Order Sand</a></li>
+									<li><a href="OrderIron.html"> Order Iron</a></li>
+									<li><a href="#"> Others</a></li>
+								</ul>
+							</li>
+						</ul>
 					</div>
-		
-					<div class="col-7 col-lg-3">
-						<!-- Start Header Action Area -->
-						<div class="header-action mt-lg-3 text-right">
-							<!-- <a href="auth.html" class="btn btn-outline-light btn-md">Log In</a>
-							<a href="Sign Up.html" class="btn btn-primary btn-md">Sign Up</a> -->
-							<button class="btn-cog"><i class="fa fa-sign-in fa-2x"></i> <span class="sign">Sign In</span></button>
-							<button class="btn-menu d-lg-none"><i class="fa fa-bars fa-2x"></i></button>
-						</div>
-						<!-- End Header Action Area -->
+					<!-- End Navigation Area -->
+				</div>
+	
+				<div class="col-7 col-lg-3">
+					<!-- Start Header Action Area -->
+					<div class="header-action mt-lg-3 text-right">
+						<!-- <a href="auth.html" class="btn btn-outline-light btn-md">Log In</a>
+						<a href="Sign Up.html" class="btn btn-primary btn-md">Sign Up</a> -->
+						<button class="btn-cog"><i class="fa fa-sign-in "></i> <span class="sign">Sign In</span></button>
+						<button class="btn-menu d-lg-none"><i class="fa fa-bars"></i></button>
 					</div>
+					<!-- End Header Action Area -->
 				</div>
 			</div>
-		</header>
+		</div>
+	</header>
 		
 	<!-- Hero unit -->
 	<div class="hero">
@@ -471,8 +470,8 @@
                     <a href="https://instagram.com" target="_blank"><i class="fa fa-instagram"></i></a>
                 </div>
                 <div class="copyright-content">
-                  <p>This is a brand you can trust. we are commited to service. a trial will convince you</p>
-                    
+					<p>&copy; Tippa.ng  All Rights Reserved.</p>
+                    <p>We are tested and trusted, A brand you can trust. a TRIAL will convince you.</p>
                 </div>
             </div>
         </div>
@@ -514,6 +513,8 @@
 <script src="js/plugins/parallax.min.js"></script>
 <script src="js/plugins/slick.min.js"></script>
 
+
+
 <!--=== Active Js ===-->
 <script src="js/active.min.js"></script>	
 				
@@ -531,3 +532,4 @@
 
 
 </html>
+
